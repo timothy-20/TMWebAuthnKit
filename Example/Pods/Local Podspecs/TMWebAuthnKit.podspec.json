@@ -1,0 +1,22 @@
+{
+  "name": "TMWebAuthnKit",
+  "version": "0.1.0",
+  "summary": "A short description of TMWebAuthnKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/timothy-20/TMWebAuthnKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "timothy-20": "jungun3329@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/timothy-20/TMWebAuthnKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TMWebAuthnKit/Classes/**/*"
+}

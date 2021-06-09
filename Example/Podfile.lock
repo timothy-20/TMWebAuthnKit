@@ -1,0 +1,16 @@
+PODS:
+  - TMWebAuthnKit (0.1.0)
+
+DEPENDENCIES:
+  - TMWebAuthnKit (from `../`)
+
+EXTERNAL SOURCES:
+  TMWebAuthnKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TMWebAuthnKit: 2f73e8d128de2c6998c509dfeb9ff11bddd5b456
+
+PODFILE CHECKSUM: 85d95b7193596693a8dd1c274aafb86be807e235
+
+COCOAPODS: 1.10.1

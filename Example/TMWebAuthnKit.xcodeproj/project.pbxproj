@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1285DE5EE2B70FABB9B364C6 /* Pods-TMWebAuthnKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMWebAuthnKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TMWebAuthnKit_Tests/Pods-TMWebAuthnKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1F7DFF324ECE516DD40D0173 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1F7DFF324ECE516DD40D0173 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		239A7261F5559D45FDF1FEB7 /* Pods-TMWebAuthnKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMWebAuthnKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-TMWebAuthnKit_Example/Pods-TMWebAuthnKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		320D2BE8D4BF898A1F8CF1BC /* Pods-TMWebAuthnKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMWebAuthnKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-TMWebAuthnKit_Tests/Pods-TMWebAuthnKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TMWebAuthnKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMWebAuthnKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,10 +61,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7BD289B5889BABA2E2B5CBB1 /* TMWebAuthnKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TMWebAuthnKit.podspec; path = ../TMWebAuthnKit.podspec; sourceTree = "<group>"; };
+		7BD289B5889BABA2E2B5CBB1 /* TMWebAuthnKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TMWebAuthnKit.podspec; path = ../TMWebAuthnKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C071A0FE1D27C966429F5509 /* Pods_TMWebAuthnKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMWebAuthnKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB1F5AF3F38B075B01E8388E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB1F5AF3F38B075B01E8388E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EB5F99D1F975BA80CD79D32E /* Pods_TMWebAuthnKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMWebAuthnKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B40462F8000FAC3C21546B /* Pods-TMWebAuthnKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMWebAuthnKit_Example.release.xcconfig"; path = "Target Support Files/Pods-TMWebAuthnKit_Example/Pods-TMWebAuthnKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				1285DE5EE2B70FABB9B364C6 /* Pods-TMWebAuthnKit_Tests.debug.xcconfig */,
 				320D2BE8D4BF898A1F8CF1BC /* Pods-TMWebAuthnKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

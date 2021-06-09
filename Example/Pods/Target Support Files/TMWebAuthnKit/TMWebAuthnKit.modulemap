@@ -1,0 +1,6 @@
+framework module TMWebAuthnKit {
+  umbrella header "TMWebAuthnKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
